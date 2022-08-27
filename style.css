@@ -1,0 +1,66 @@
+body {
+    background-image: url(background.png);
+}
+
+.container-navbar {
+    background-color: #242424;
+}
+
+.ul-navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.li-navbar-azlons {
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 26px 28px;
+    font-size: 35;
+    font-family: FontSayaPixellari;
+    font-style: bold;
+}
+
+.li-navbar {
+    font-family: FontSayaPixellari;
+    color: white;
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 28px 30px;
+    text-decoration: none;
+    font-size: 25;
+}
+
+.isi-web-text {
+    margin-top: 210;
+    margin-left: 200;
+    color: #0b0f0f;
+    display: table;
+}
+
+.isi-web-img {
+    margin-left: 900;
+    margin-bottom: 150;
+    display: block;
+}
+
+@font-face {
+    font-family: FontSayaPixellari;
+    src: url(pixellari.ttf);
+}
+
+@font-face {
+    font-family: FontSayaM12;
+    src: url(m12.TTF);
+}
+
+.mademe-design {
+    background-color: white;
+    color: #242424;
+    text-align: center;
+}
